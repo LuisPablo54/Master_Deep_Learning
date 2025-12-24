@@ -1,0 +1,61 @@
+# --- ENTORNOS VIRTUALES ---
+venv/
+env/
+.env
+bin/
+lib/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.installed.cfg
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+.pip-internal/
+
+# --- DATASETS (IMPORTANTE) ---
+# No subas datos crudos a GitHub. Es mejor descargarlos mediante script.
+data/
+datasets/
+*.csv
+*.json
+*.zip
+*.tar.gz
+*.rar
+
+# --- PYTORCH / MACHINE LEARNING ---
+# Archivos de pesos y modelos entrenados
+*.pth
+*.pt
+*.pwf
+*.h5
+*.ckpt
+*.onnx
+
+# Carpeta de logs de entrenamiento (TensorBoard)
+runs/
+logs/
+
+# --- JUPYTER NOTEBOOKS ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Descomenta la siguiente línea si NO quieres subir los archivos de autoguardado
+# .virtual_documents/
+
+# --- PYTHON INTERNALS ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# --- CONFIGURACIÓN DE IDE ---
+.vscode/
+.idea/
+.DS_Store (Mac)
+Thumbs.db (Windows)
